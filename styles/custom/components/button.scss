@@ -1,0 +1,38 @@
+.button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  border: 1px solid #e7ecf9;
+  border-radius: 4px;
+  color: #5a637d;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0px;
+
+  &:hover {
+    background-color: lighten(#e7ecf9, 5);
+  }
+
+  &:active {
+    background-color: lighten(#e7ecf9, 4);
+  }
+}
+
+.button--block {
+  width: 100%;
+}
+
+.button--primary {
+  background-color: #10182e;
+  color: #fff;
+
+  &:hover {
+    background-color: lighten(#10182e, 5);
+  }
+
+  &:active {
+    background-color: darken(#10182e, 5);
+  }
+}
