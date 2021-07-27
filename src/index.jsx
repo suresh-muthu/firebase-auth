@@ -8,6 +8,5 @@ import App from './components/App';
 import { FIREBASE_CONFIG } from './constants';
 
 firebase.initializeApp(FIREBASE_CONFIG);
-firebase.analytics();
 
 ReactDOM.render(<App />, document.getElementById('root'));
